@@ -23,7 +23,7 @@ body {
 
 /* Botão principal (Saúde) */
 .btn-primary {
-    background-color: #004bad !important;
+    background-color: #004aad !important;
     border: none;
 }
 
@@ -48,7 +48,21 @@ body {
     color: white !important;
 }
 
-/* Cor do ícone */
-.icone {
-    color: #0050e4e3;
+/* Divisória */
+
+.b-example-divider {
+  border-top: 1px solid #ddd;  /* linha cinza clara */
+  width: 100%;                 /* ocupa toda a largura do pai */
+  margin: 8rem 0 2rem 0;              /* espaço em cima e embaixo */
+}
+
+/* Imagem de fundo */
+
+.introducao-bg {
+  background-image: url("imagens/fundo.png"); /* caminho da sua imagem */
+  background-size: cover;   /* cobre toda a área */
+  background-position: center; /* centraliza */
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 0; /* opcional: cantos arredondados */
 }
