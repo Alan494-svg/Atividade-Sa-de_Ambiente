@@ -10,27 +10,19 @@ body {
     color: #004aad;
 }
 
-/* Titulo da Introdução */
+/* Titulos */
 
 .titulo-intoducao {
+    color:#004aad
+}
+
+.titulo-quem-somos {
     color:#004aad
 }
 /* Cor texto */
 
 .col-lg-6 {
     color:#000000
-}
-
-/* Botão principal (Saúde) */
-.btn-primary {
-    background-color: #004aad !important;
-    border: none;
-}
-
-/* Botão secundário (Ambiente) */
-.btn-outline-secondary {
-    color: #004aad !important;
-    border-color: #004aad !important;
 }
 
 .btn-outline-secondary:hover {
@@ -51,7 +43,7 @@ body {
 /* Divisória */
 
 .b-example-divider {
-  border-top: 1px solid #ddd;  /* linha cinza clara */
+  border-top: 1px solid #000000c2;  /* linha cinza clara */
   width: 100%;                 /* ocupa toda a largura do pai */
   margin: 8rem 0 2rem 0;              /* espaço em cima e embaixo */
 }
@@ -66,3 +58,12 @@ body {
   width: 100%;
   border-radius: 0; /* opcional: cantos arredondados */
 }
+
+ /* Define tamanho fixo para imagens dentro dos cards */
+    .card-img-top {
+        width: 120px;       /* largura menor */
+        height: 120px;      /* altura menor */
+        object-fit: cover;  /* mantém proporção sem distorcer */
+        margin: 15px auto;  /* centraliza a imagem no card */
+        border-radius: 50%; /* deixa arredondada (opcional) */
+    }
